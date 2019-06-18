@@ -1,0 +1,20 @@
+.button-link {
+  padding: 0;
+  border: none;
+  color: #18c1e0;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  outline: none;
+
+  img {
+    margin-right: 10px;
+    height: 10px;
+    width: auto;
+  }
+  &:focus {
+    outline: none;
+  }
+}

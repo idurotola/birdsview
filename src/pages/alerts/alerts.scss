@@ -1,0 +1,25 @@
+.alert-container {
+  background: #ffffff;
+  padding: 100px;
+  width: 800px;
+  margin: auto;
+  .alert-header {
+    margin-bottom: 34px;
+    .header {
+      color: #666666;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 18px;
+      margin-bottom: 12px;
+    }
+    .description {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+}

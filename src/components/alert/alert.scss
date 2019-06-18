@@ -1,0 +1,83 @@
+.alert-list {
+  margin-top: 30px;
+  .alert-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .alert-details {
+      display: flex;
+
+      .app-icon {
+        margin-right: 19px;
+        width: 37px;
+        height: 37px;
+        img {
+          width: 100%;
+        }
+      }
+
+      .app-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .name {
+          font-size: 12px;
+          line-height: 14px;
+          font-weight: bold;
+        }
+        .comment {
+          span {
+            font-size: 12px;
+            line-height: 14px;
+            color: #333333;
+          }
+        }
+      }
+    }
+
+    .alert-tools {
+      display: flex;
+      align-items: center;
+
+      .alert-integration {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .frequency {
+          font-size: 11px;
+          line-height: 18px;
+        }
+
+        .integrations {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          margin-bottom: 3px;
+
+          .plus {
+            margin: 0 10px;
+            font-weight: bold;
+            font-size: 14px;
+            color: #778594;
+            line-height: 16px;
+          }
+        }
+      }
+
+      .next-button {
+        margin-left: 45px;
+        display: flex;
+        align-items: center;
+
+        img {
+          height: 12px;
+        }
+      }
+    }
+  }
+}

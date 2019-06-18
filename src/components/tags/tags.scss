@@ -1,0 +1,30 @@
+$list: (#fad7de, #ffd7a3, #ded2e8);
+
+.tags {
+  display: flex;
+  align-items: center;
+  span {
+    margin-left: 5px;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: -0.02px;
+    color: #333333;
+  }
+
+  .tag {
+    border-radius: 100%;
+    background: #fad7de;
+    display: inline-block;
+    border: 1px solid #fff;
+
+    &:not(:first-child) {
+      margin-left: -5px;
+    }
+
+    @for $i from 1 to length($list) {
+      &:nth-child(#{$i}) {
+        background-color: nth($list, $i);
+      }
+    }
+  }
+}
